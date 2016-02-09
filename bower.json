@@ -1,0 +1,26 @@
+{
+  "name": "adventure",
+  "version": "0.0.1",
+  "authors": [
+    "Chris Dickow <chris.dickow@gmail.com>"
+  ],
+  "description": "adventure - and adventure.",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "latest",
+    "angular-route": "latest",
+    "angular-animate": "latest",
+    "bootstrap": "~3.3.4",
+    "font-awesome": "~4.3.0"
+  },
+  "devDependencies": {
+    "grunt-cli": "~0.1.13"
+  }
+}

@@ -1,0 +1,68 @@
+.header{
+  background-color: #efefef;
+  color: #777;
+  padding: 4px 4px 8px;
+}
+.title{
+  font-size: 12px;
+}
+.game-text{
+  margin-top: 20%;
+}
+.inventory-bttn{
+  position: absolute;
+  bottom: 0;
+  right: 60px;
+}
+.action-text{
+  position: absolute;
+  bottom: 0;
+  padding: 4px 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  color: #666;
+  width: 50%;
+}
+
+
+.circle{
+  cursor: pointer;
+  width:60px;
+  height:60px;
+  box-shadow: 1px 1px 3px #999;
+  border-radius:50%;
+  position: absolute;
+  right: 0px;
+  bottom: 10px;
+  -webkit-transition: all 500ms cubic-bezier(0.190, 1.000, 0.220, 1.000);
+   -moz-transition: all 500ms cubic-bezier(0.190, 1.000, 0.220, 1.000);
+     -o-transition: all 500ms cubic-bezier(0.190, 1.000, 0.220, 1.000);
+        transition: all 500ms cubic-bezier(0.190, 1.000, 0.220, 1.000);
+}
+.first_circle{
+  background-color:#000;
+  z-index: 3;
+}
+.second_circle{
+  z-index: 2;
+  background-color: #555;
+}
+.third_circle{
+  background-color: #999;
+  z-index: 1;
+}
+.container_circle:hover .second_circle{
+  bottom:75px;
+}
+.container_circle:hover .third_circle{
+  bottom:140px;
+}
+.container_circle:hover{
+  height: 160px;
+  width: 50px;
+}
+.container_circle{
+  position: absolute;
+  bottom: 0;
+  right: 60px;
+}
